@@ -4,6 +4,9 @@ body, .price-table {
   font-weight: bold;
   line-height: 24px;
   text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  /*background-image: url("../img/background-shop.jpg");*/
 }
 
  h1, h2, .features-name {
@@ -20,4 +23,145 @@ h3, .shop-form legend {
   font-size: 14px;
   line-height: 18px;
   text-transform: none;
+}
+
+.page-header {
+  background-color: #000000;
+  min-height: 72px;
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  outline: 1px dashed lightgreen;
+}
+
+.shop-logo {
+  float: left;
+  width: 150px;
+  margin-right: 10px;
+  margin-top: 23px;
+  text-align: center;
+
+  outline: 1px solid yellow;
+}
+
+.main-menu {
+  float: left;
+  padding: 0;
+  margin: 0;
+  margin-right: 20px;
+  min-height: 72px;
+
+  outline: 1px solid magenta;
+}
+
+.main-menu ul {
+  float: left;
+  width: 620px;
+  padding: 0;
+  margin-top: 23px;
+
+  outline: 1px solid cyan;
+}
+
+.main-menu li {
+  display: inline-block;
+
+  /*outline: 1px dotted gray;*/
+}
+
+.main-menu a, .user-block a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.user-block a {
+  /*outline: 1px dotted gray;*/
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  margin-top: 23px;
+
+  outline: 1px solid red;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.breadcrumbs {
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+}
+
+.breadcrumbs a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.breadcrumbs li:last-child a {
+  color: #aba9a7;
+}
+
+.shop-form {
+  float: left;
+  width: 220px;
+  margin-right: 20px;
+  outline: 1px dashed magenta;
+}
+
+.shop-form fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  margin-bottom: 20px;
+}
+
+.shop-form legend {
+  margin-bottom: 20px;
+}
+
+.shop-form-group {
+  display: block;
+}
+
+.shop-showcase {
+  float: left;
+  width: 700px;
+  outline: 1px dashed blue;
+  font-size: 0;
+}
+
+/*.showcase-item {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  
+  outline: 1px solid cyan;
+}*/
+
+.showcase-item:nth-child(3n+3) {
+  margin-right: 0;
+}
+
+.pagination {
+  clear: both;
+}
+
+.pagination li {
+  display: inline-block;
 }
