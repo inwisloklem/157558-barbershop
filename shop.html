@@ -10,11 +10,9 @@
     <header class="page-header">
       <div class="container clearfix">
         <nav class="main-menu">
-          <div class="shop-logo">
-            <a href="index.html">
-              <img src="img/logo-barbershop-small.png" width="111" height="24" alt="Барбершоп «Бородинский»">
-            </a>
-          </div>
+          <a class="shop-logo" href="index.html">
+            <img src="img/logo-barbershop-small.png" width="111" height="24" alt="Барбершоп «Бородинский»">
+          </a>
           <ul>
             <li><a href="#">Информация</a></li>
             <li><a href="#">Новости</a></li>
@@ -40,7 +38,7 @@
           <li><a>Средства для ухода</a></li>
         </ul>
 
-        <div class="shop-form">
+        <aside class="shop-form">
           <form action="#" method="post">
             <fieldset>
               <legend>Производители:</legend>
@@ -48,31 +46,37 @@
               <label class="shop-form-group">
                 <input type="checkbox" name="manufacturer[]" value="baxter-of-california" checked>
                 Baxter of California
+                <span class="checkbox-indicator"></span>
               </label>
 
               <label class="shop-form-group">
                 <input type="checkbox" name="manufacturer[]" value="mr-natty">
-                Mr. Natty
+                Mr Natty
+                <span class="checkbox-indicator"></span>
               </label>
 
               <label class="shop-form-group">
                 <input type="checkbox" name="manufacturer[]" value="suavecito" checked>
                 Suavecito
+                <span class="checkbox-indicator"></span>
               </label>
 
               <label class="shop-form-group">
                 <input type="checkbox" name="manufacturer[]" value="malin-goetz">
                 Malin+Goetz
+                <span class="checkbox-indicator"></span>
               </label>
 
               <label class="shop-form-group">
                 <input type="checkbox" name="manufacturer[]" value="murrays">
                 Murray's
+                <span class="checkbox-indicator"></span>
               </label>
 
               <label class="shop-form-group">
                 <input type="checkbox" name="manufacturer[]" value="american-crew" checked>
                 American Crew
+                <span class="checkbox-indicator"></span>
               </label>
             </fieldset>
 
@@ -82,32 +86,35 @@
               <label class="shop-form-group">
                 <input type="radio" name="group" value="group1">
                 Бритвенные принадлежности
+                <span class="radio-indicator"></span>
               </label>
 
               <label class="shop-form-group">
                 <input type="radio" name="group" value="group2" checked>
                 Средства для ухода
+                <span class="radio-indicator"></span>
               </label>
 
               <label class="shop-form-group">
                 <input type="radio" name="group" value="group3">
                 Аксессуары
+                <span class="radio-indicator"></span>
               </label>
             </fieldset>
 
             <button class="btn" type="submit">Показать</button>
           </form>
-        </div>
+        </aside>
 
         <div class="shop-showcase">
           <article class="showcase-item">
             <a href="shop-item.html">
               <img src="img/product-baxter-travel-kit.jpg" width="220" height="165" alt="Набор для путешествий «Baxter of California»">
             </a>
-            <a href="shop-item.html"><h2>Набор для путешествий <br><span class="name-uppercase">«Baxter of California»</span></h2></a>
+            <a href="shop-item.html"><h2><span class="product-type">Набор для путешествий</span> <span class="product-name">«Baxter of California»</span></h2></a>
 
             <div class="price-block">
-              <b>2 900 р.</b>
+              <b>2 900 руб.</b>
               <a class="btn" href="#">Купить</a>
             </div>
           </article>
@@ -116,10 +123,10 @@
             <a href="shop-item.html">
               <img src="img/product-baxter-conditioner.jpg" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»">
             </a>
-            <a href="shop-item.html"><h2>Увлажняющий кондиционер <br><span class="name-uppercase">«Baxter of California»</span></h2></a>
+            <a href="shop-item.html"><h2><span class="product-type">Увлажняющий кондиционер</span> <span class="product-name">«Baxter of California»</span></h2></a>
 
             <div class="price-block">
-              <b>750 р.</b>
+              <b>750 руб.</b>
               <a class="btn" href="#">Купить</a>
             </div>
           </article>
@@ -128,10 +135,10 @@
             <a href="shop-item.html">
               <img src="img/product-suavecito-gel.jpg" width="220" height="165" alt="Гель для волос «Suavecito»">
             </a>
-            <a href="shop-item.html"><h2>Гель для волос <br><span class="name-uppercase">«Suavecito»</span></h2></a>
+            <a href="shop-item.html"><h2><span class="product-type">Гель для волос</span> <span class="product-name">«Suavecito»</span></h2></a>
 
             <div class="price-block">
-              <b>290 р.</b>
+              <b>290 руб.</b>
               <a class="btn" href="#">Купить</a>
             </div>
           </article>
@@ -140,10 +147,10 @@
             <a href="shop-item.html">
               <img src="img/product-american-crew-clay.jpg" width="220" height="165" alt="Глина для укладки волос «American Crew»">
             </a>
-            <a href="shop-item.html"><h2>Глина для укладки волос <br><span class="name-uppercase">«American Crew»</span></h2></a>
+            <a href="shop-item.html"><h2><span class="product-type">Глина для укладки волос</span> <span class="product-name">«American Crew»</span></h2></a>
 
             <div class="price-block">
-              <b>500 р.</b>
+              <b>500 руб.</b>
               <a class="btn" href="#">Купить</a>
             </div>
           </article>
@@ -152,10 +159,10 @@
             <a href="shop-item.html">
               <img src="img/product-american-crew-gel.jpg" width="220" height="165" alt="Гель для волос «American Crew»">
             </a>
-            <a href="shop-item.html"><h2>Гель для волос <br><span class="name-uppercase">«American Crew»</span></h2></a>
+            <a href="shop-item.html"><h2><span class="product-type">Гель для волос</span> <span class="product-name">«American Crew»</span></h2></a>
 
             <div class="price-block">
-              <b>300 р.</b>
+              <b>300 руб.</b>
               <a class="btn" href="#">Купить</a>
             </div>
           </article>
@@ -164,10 +171,10 @@
             <a href="shop-item.html">
               <img src="img/product-baxter-shave-kit.jpg" width="220" height="165" alt="Набор для бритья «Baxter of California»">
             </a>
-            <a href="shop-item.html"><h2>Набор для бритья <br><span class="name-uppercase">«Baxter of California»</span></h2></a>
+            <a href="shop-item.html"><h2><span class="product-type">Набор для бритья</span> <span class="product-name">«Baxter of California»</span></h2></a>
 
             <div class="price-block">
-              <b>3 900 р.</b>
+              <b>3 900 руб.</b>
               <a class="btn" href="#">Купить</a>
             </div>
           </article>
@@ -192,7 +199,8 @@
         </div>
 
         <div class="footer-social">
-          Давайте дружить!<br>
+          <p>Давайте дружить!</p>
+
           <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
@@ -204,5 +212,6 @@
         </div>
       </div>
     </footer>
+    </div>
   </body>
 </html>
