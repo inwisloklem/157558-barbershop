@@ -602,6 +602,10 @@ h3,
   margin-bottom: 28px;
 }
 
+.shop-content-left, .shop-content-right {
+  margin-top: 10px;
+}
+
 .page-footer {
   min-height: 189px;
   margin-top: 50px;
